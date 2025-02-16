@@ -33,8 +33,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "7022c2e0-5cfd-4884-a619-46397e5c58d9",
             "zIndex": -1,
+            "id": "7022c2e0-5cfd-4884-a619-46397e5c58d9",
             "data": {
               "type": "tm.BoundaryBox",
               "description": "",
@@ -63,6 +63,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -146,7 +147,6 @@
               ]
             },
             "id": "2c5166cd-c5eb-4908-87a4-a208758683e4",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Angreifer ",
@@ -179,6 +179,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -262,7 +263,6 @@
               ]
             },
             "id": "eb4f4877-b8c5-448a-a5bd-7b570d401379",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Sophos\nCWE-200,\nPDF-Entschl.",
@@ -1119,6 +1119,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1202,7 +1203,6 @@
               ]
             },
             "id": "12ecb0cf-cc71-4f84-b5b0-421fa46438a3",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Studierende/\nDozierende",
@@ -1235,6 +1235,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1318,7 +1319,6 @@
               ]
             },
             "id": "e0d69cbd-2ccd-4e42-ac69-e56524ba4a8d",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Cisco Gateway\nv12.1.0-087",
@@ -1354,6 +1354,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1437,7 +1438,6 @@
               ]
             },
             "id": "b5308dc8-b8e2-4372-8c08-c84b58f24ac2",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "Log4j\nv2.0-beta7",
@@ -1473,6 +1473,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1556,7 +1557,6 @@
               ]
             },
             "id": "6682e414-da64-41a0-9c69-f54c38a825da",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "Auth0\nnpm < 2.27.1",
@@ -1595,6 +1595,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1678,7 +1679,6 @@
               ]
             },
             "id": "e5b0e135-e171-476b-8fdc-217a76070a8e",
-            "zIndex": 15,
             "data": {
               "type": "tm.Store",
               "name": "Prüfungswesen\nDatenbank",
@@ -1715,6 +1715,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1798,7 +1799,6 @@
               ]
             },
             "id": "a19c2962-83b5-4c27-b5b7-60798559257e",
-            "zIndex": 16,
             "data": {
               "type": "tm.Process",
               "name": "VinChin Backup\nCVE-2022-35866",
@@ -1834,6 +1834,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1917,7 +1918,6 @@
               ]
             },
             "id": "15cdfc25-91f2-4110-96e3-481c7ce599ea",
-            "zIndex": 17,
             "data": {
               "type": "tm.Actor",
               "name": "HP t430 & t638",
@@ -1950,6 +1950,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -2033,7 +2034,6 @@
               ]
             },
             "id": "0b34521b-9267-470d-9e55-20e40c413768",
-            "zIndex": 18,
             "data": {
               "type": "tm.Actor",
               "name": "ThinkPad X13s\nCVE-2022-4435",
@@ -2066,6 +2066,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -2149,7 +2150,6 @@
               ]
             },
             "id": "c815b07b-294a-471b-8170-b7ff98fc1e0e",
-            "zIndex": 19,
             "data": {
               "type": "tm.Process",
               "name": "Encryption Tool\nv6.87\nPrivEsc",
@@ -2185,6 +2185,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -2268,7 +2269,6 @@
               ]
             },
             "id": "f4c435b6-88b4-4f85-bf9f-b870d4773323",
-            "zIndex": 20,
             "data": {
               "type": "tm.Process",
               "name": "Lokales Backup Tool\nv6.8.0,\nAuthBypass,RCE",
