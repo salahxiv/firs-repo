@@ -159,125 +159,6 @@
             }
           },
           {
-            "position": {
-              "x": 360,
-              "y": 210
-            },
-            "size": {
-              "width": 120,
-              "height": 120
-            },
-            "attrs": {
-              "text": {
-                "text": "Sophos\nCWE-200,\nPDF-Entschl."
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 2,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "b00f160b-cb60-4b60-aef0-4a13467f010b"
-                },
-                {
-                  "group": "right",
-                  "id": "141651b0-582d-4562-95a8-09d36e224ae3"
-                },
-                {
-                  "group": "bottom",
-                  "id": "682fa764-e152-41ba-aa02-e7515a34bf05"
-                },
-                {
-                  "group": "left",
-                  "id": "65f0d670-f6de-4b72-b00c-81a8baea5983"
-                }
-              ]
-            },
-            "id": "eb4f4877-b8c5-448a-a5bd-7b570d401379",
-            "data": {
-              "type": "tm.Process",
-              "name": "Sophos\nCWE-200,\nPDF-Entschl.",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -429,93 +310,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Log4Shell Exploit\nvia Sophos Proxy",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Log4Shell Exploit\nvia Sophos Proxy"
-            ],
-            "id": "c5c348b4-d281-4424-b6b1-c466fc24e7b2",
-            "source": {
-              "x": 200,
-              "y": 120
-            },
-            "target": {
-              "cell": "eb4f4877-b8c5-448a-a5bd-7b570d401379",
-              "port": "65f0d670-f6de-4b72-b00c-81a8baea5983"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              ""
-            ],
-            "id": "1eccfa20-9556-480c-8fee-23ce7da3eb96",
-            "source": {
-              "x": 480,
-              "y": 270
-            },
-            "target": {
-              "cell": "b5308dc8-b8e2-4372-8c08-c84b58f24ac2"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Credential Stuffing,\nJWT Manip",
               "description": "",
               "outOfScope": false,
@@ -536,7 +330,13 @@
             },
             "target": {
               "cell": "6682e414-da64-41a0-9c69-f54c38a825da"
-            }
+            },
+            "vertices": [
+              {
+                "x": 570,
+                "y": 50
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -709,96 +509,6 @@
               {
                 "x": 1050,
                 "y": 240
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Backup-Daten",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Backup-Daten"
-            ],
-            "id": "96a38808-3dee-4bda-a550-680b74e03b11",
-            "source": {
-              "cell": "b5308dc8-b8e2-4372-8c08-c84b58f24ac2"
-            },
-            "target": {
-              "cell": "a19c2962-83b5-4c27-b5b7-60798559257e"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              ""
-            ],
-            "id": "14e1ab20-ee82-4c20-ab11-1f15c6141d9f",
-            "source": {
-              "cell": "a19c2962-83b5-4c27-b5b7-60798559257e"
-            },
-            "target": {
-              "cell": "b5308dc8-b8e2-4372-8c08-c84b58f24ac2"
-            },
-            "vertices": [
-              {
-                "x": 990,
-                "y": 60
               }
             ]
           },
@@ -1099,6 +809,198 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Log4Shell Exploit\nvia Sophos Proxy",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Log4Shell Exploit\nvia Sophos Proxy"
+            ],
+            "id": "c5c348b4-d281-4424-b6b1-c466fc24e7b2",
+            "source": {
+              "x": 200,
+              "y": 120
+            },
+            "target": {
+              "cell": "b5308dc8-b8e2-4372-8c08-c84b58f24ac2",
+              "port": "65f0d670-f6de-4b72-b00c-81a8baea5983"
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Restore Data",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Restore Data"
+            ],
+            "id": "14e1ab20-ee82-4c20-ab11-1f15c6141d9f",
+            "source": {
+              "cell": "a19c2962-83b5-4c27-b5b7-60798559257e"
+            },
+            "target": {
+              "cell": "b5308dc8-b8e2-4372-8c08-c84b58f24ac2"
+            },
+            "vertices": [
+              {
+                "x": 990,
+                "y": 60
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Backup Data",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Backup Data"
+            ],
+            "id": "96a38808-3dee-4bda-a550-680b74e03b11",
+            "source": {
+              "cell": "b5308dc8-b8e2-4372-8c08-c84b58f24ac2"
+            },
+            "target": {
+              "cell": "a19c2962-83b5-4c27-b5b7-60798559257e"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "e2898451-1899-4db9-8719-940e3a68ff57",
+            "source": {
+              "cell": "6682e414-da64-41a0-9c69-f54c38a825da"
+            },
+            "target": {
+              "cell": "b5308dc8-b8e2-4372-8c08-c84b58f24ac2"
+            },
+            "vertices": [
+              {
+                "x": 890,
+                "y": 40
+              },
+              {
+                "x": 830,
+                "y": 60
+              }
+            ]
+          },
+          {
             "position": {
               "x": 90,
               "y": -60
@@ -1225,7 +1127,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Cisco Gateway\nv12.1.0-087"
+                "text": "Cisco Gateway\nv12.1.0-087\nCVE-2022-20798"
               },
               "body": {
                 "stroke": "#333333",
@@ -1321,7 +1223,7 @@
             "id": "e0d69cbd-2ccd-4e42-ac69-e56524ba4a8d",
             "data": {
               "type": "tm.Process",
-              "name": "Cisco Gateway\nv12.1.0-087",
+              "name": "Cisco Gateway\nv12.1.0-087\nCVE-2022-20798",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1573,8 +1475,8 @@
           },
           {
             "position": {
-              "x": 855,
-              "y": 210
+              "x": 840,
+              "y": 200
             },
             "size": {
               "width": 120,
@@ -2048,15 +1950,15 @@
           {
             "position": {
               "x": 1119.9999999999993,
-              "y": 456
+              "y": 436
             },
             "size": {
-              "width": 130,
-              "height": 140
+              "width": 150,
+              "height": 160
             },
             "attrs": {
               "text": {
-                "text": "Encryption Tool\nv6.87\nPrivEsc"
+                "text": "Encryption Tool\nv6.87\n (Privilege Escalation)"
               },
               "body": {
                 "stroke": "#333333",
@@ -2152,7 +2054,7 @@
             "id": "c815b07b-294a-471b-8170-b7ff98fc1e0e",
             "data": {
               "type": "tm.Process",
-              "name": "Encryption Tool\nv6.87\nPrivEsc",
+              "name": "Encryption Tool\nv6.87\n (Privilege Escalation)",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
