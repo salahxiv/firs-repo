@@ -44,8 +44,8 @@
           },
           {
             "position": {
-              "x": 90,
-              "y": 90
+              "x": 170,
+              "y": 20
             },
             "size": {
               "width": 112.5,
@@ -157,54 +157,6 @@
               "providesAuthentication": false,
               "threats": []
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Credential Stuffing,\nJWT Manip",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Credential Stuffing,\nJWT Manip"
-            ],
-            "id": "790066a9-cbee-40dd-93e5-519c9b97c24e",
-            "source": {
-              "cell": "2c5166cd-c5eb-4908-87a4-a208758683e4"
-            },
-            "target": {
-              "cell": "6682e414-da64-41a0-9c69-f54c38a825da"
-            },
-            "vertices": [
-              {
-                "x": 570,
-                "y": 50
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -559,56 +511,6 @@
             "target": {
               "cell": "c815b07b-294a-471b-8170-b7ff98fc1e0e"
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Log4Shell Exploit\nvia Sophos Proxy",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Log4Shell Exploit\nvia Sophos Proxy"
-            ],
-            "id": "c5c348b4-d281-4424-b6b1-c466fc24e7b2",
-            "source": {
-              "x": 200,
-              "y": 120
-            },
-            "target": {
-              "cell": "b5308dc8-b8e2-4372-8c08-c84b58f24ac2",
-              "port": "65f0d670-f6de-4b72-b00c-81a8baea5983"
-            },
-            "vertices": [
-              {
-                "x": 410,
-                "y": 150
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -1151,6 +1053,104 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Log4Shell Exploit\nvia Sophos Proxy",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Log4Shell Exploit\nvia Sophos Proxy"
+            ],
+            "id": "c5c348b4-d281-4424-b6b1-c466fc24e7b2",
+            "source": {
+              "cell": "2c5166cd-c5eb-4908-87a4-a208758683e4",
+              "port": "ebee0d64-221e-4c56-bb7c-7cbd12f6d42f"
+            },
+            "target": {
+              "cell": "b5308dc8-b8e2-4372-8c08-c84b58f24ac2",
+              "port": "65f0d670-f6de-4b72-b00c-81a8baea5983"
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Credential Stuffing,\nJWT manipulation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Credential Stuffing,\nJWT manipulation"
+            ],
+            "id": "790066a9-cbee-40dd-93e5-519c9b97c24e",
+            "source": {
+              "cell": "2c5166cd-c5eb-4908-87a4-a208758683e4"
+            },
+            "target": {
+              "cell": "6682e414-da64-41a0-9c69-f54c38a825da"
+            },
+            "vertices": [
+              {
+                "x": 710,
+                "y": 20
+              }
+            ]
+          },
+          {
             "position": {
               "x": 150,
               "y": -240
@@ -1396,7 +1396,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Log4j\nv2.0-beta7"
+                "text": "Log4j\nv2.0-beta7\nCVE-2021-44228"
               },
               "body": {
                 "stroke": "#333333",
@@ -1492,7 +1492,7 @@
             "id": "b5308dc8-b8e2-4372-8c08-c84b58f24ac2",
             "data": {
               "type": "tm.Process",
-              "name": "Log4j\nv2.0-beta7",
+              "name": "Log4j\nv2.0-beta7\nCVE-2021-44228",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1515,7 +1515,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Auth0\nnpm < 2.27.1"
+                "text": "Auth0\nnpm < 2.27.1\nCVE-2022-23540"
               },
               "body": {
                 "stroke": "#333333",
@@ -1611,7 +1611,7 @@
             "id": "6682e414-da64-41a0-9c69-f54c38a825da",
             "data": {
               "type": "tm.Process",
-              "name": "Auth0\nnpm < 2.27.1",
+              "name": "Auth0\nnpm < 2.27.1\nCVE-2022-23540",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2359,6 +2359,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -2442,7 +2443,6 @@
               ]
             },
             "id": "4c054125-181b-494b-80cb-bf2e7b3ef00a",
-            "zIndex": 21,
             "data": {
               "type": "tm.Store",
               "name": "Logfiels / Protokolle ",
